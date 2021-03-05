@@ -1,0 +1,83 @@
+@import '_normalize.scss';
+
+.bg-video{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+}
+
+.btn{
+    color: #ffffff;
+    width: 30%;
+    height: 10%;
+    background: none;  
+    font-size: 2rem;  
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    &:hover{
+        color:#000000;
+        background-color: #ffffff;
+    }
+}
+
+.main{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .time-select, .sound-select, .player{
+        height: 70%;
+        flex: 1;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .time-select{    
+        
+    }
+
+    .player{
+
+        position: relative;
+
+        .player-svg{
+            position: absolute;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            pointer-events: none;
+        }
+        .time-display{
+            position: absolute;
+            bottom: 5%;
+            color: #ffffff;
+            font-size: 3rem;
+        }
+    }
+
+    .sound-select{    
+
+        .sound-select--btn{
+            bottom: none;
+            height: 10rem;
+            width: 10rem;
+        }
+    }
+    
+
+}
+
+
