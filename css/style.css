@@ -374,6 +374,10 @@ template {
   background-color: #ffffff;
 }
 
+.btn:focus {
+  outline: none;
+}
+
 .main {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto Mono', monospace;
@@ -436,5 +440,15 @@ template {
   bottom: none;
   height: 10rem;
   width: 10rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.main .sound-select .sound-select--btn:nth-child(1) {
+  background: #4972a1;
+}
+
+.main .sound-select .sound-select--btn:nth-child(2) {
+  background: #a14f49;
 }
 /*# sourceMappingURL=style.css.map */

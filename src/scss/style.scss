@@ -23,6 +23,9 @@
         color:#000000;
         background-color: #ffffff;
     }
+    &:focus{
+        outline: none;
+    }
 }
 
 .main{
@@ -74,6 +77,15 @@
             bottom: none;
             height: 10rem;
             width: 10rem;
+            border: none;
+            border-radius: 50%;
+
+            &:nth-child(1){
+                background: #4972a1;
+            }
+            &:nth-child(2){
+                background: #a14f49;
+            }
         }
     }
     
