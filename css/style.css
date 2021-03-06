@@ -436,7 +436,7 @@ template {
   font-size: 3rem;
 }
 
-.main .sound-select .sound-select--btn {
+.main .sound-select--btn {
   bottom: none;
   height: 10rem;
   width: 10rem;
@@ -444,11 +444,11 @@ template {
   border-radius: 50%;
 }
 
-.main .sound-select .sound-select--btn:nth-child(1) {
+.main .sound-select--btn:nth-child(1) {
   background: #4972a1;
 }
 
-.main .sound-select .sound-select--btn:nth-child(2) {
+.main .sound-select--btn:nth-child(2) {
   background: #a14f49;
 }
 /*# sourceMappingURL=style.css.map */
