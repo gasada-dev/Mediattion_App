@@ -20,11 +20,11 @@ const app = () => {
     if (song.paused) {
       song.play();
       video.play();
-      play.src = '../src/svg/pause.svg';
+      play.src = './src/svg/pause.svg';
     } else {
       song.pause();
       video.pause();
-      play.src = '../src/svg/play.svg';
+      play.src = './src/svg/play.svg';
     }
   };
 }
