@@ -356,7 +356,7 @@ template {
   z-index: -10;
 }
 
-.btn {
+.button {
   color: #ffffff;
   width: 30%;
   height: 10%;
@@ -369,12 +369,12 @@ template {
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   color: #000000;
   background-color: #ffffff;
 }
 
-.btn:focus {
+.button:focus {
   outline: none;
 }
 
