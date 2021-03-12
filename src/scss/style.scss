@@ -1,6 +1,6 @@
 @import '_normalize.scss';
 
-.bg-video{
+.video{
     position: fixed;
     top: 0%;
     left: 0%;
@@ -51,6 +51,12 @@
     .player{
 
         position: relative;
+        display: flex;
+        justify-content: center;
+
+        .play{
+            margin: 12.5% 0;
+        }
 
         .player-svg{
             position: absolute;
